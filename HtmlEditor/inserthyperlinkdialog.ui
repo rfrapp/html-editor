@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InsertHyperlinkDialog</class>
+ <widget class="QDialog" name="InsertHyperlinkDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>361</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Insert Hyperlink</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>381</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Text:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="textTextBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>381</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>381</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Linked to (web page/file): </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>150</y>
+     <width>381</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Target:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="targetComboBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>170</y>
+     <width>381</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>_blank</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>new</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>_parent</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>_self</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>_top</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="closeButton">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>320</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="insertButton">
+   <property name="geometry">
+    <rect>
+     <x>141</x>
+     <y>320</y>
+     <width>131</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Insert Hyperlink</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>381</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLineEdit" name="linkTextBox"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="browseButton">
+      <property name="text">
+       <string>Browse...</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>220</y>
+     <width>271</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Access Key:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>Tab Index:</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>250</y>
+     <width>271</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <widget class="QSpinBox" name="accessKeySpinBox"/>
+    </item>
+    <item>
+     <widget class="QSpinBox" name="tabIndexSpinBox"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

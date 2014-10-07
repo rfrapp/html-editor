@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InsertFormDialog</class>
+ <widget class="QDialog" name="InsertFormDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>415</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Insert a Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>181</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ID:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>371</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>270</y>
+     <width>201</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Action:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="closeButton">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>370</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addButton">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>370</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add Form</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>180</y>
+     <width>371</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Encryption type: </string>
+   </property>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>34</y>
+      <width>351</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QRadioButton" name="method_get">
+       <property name="text">
+        <string>None</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">enctypeGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="method_post">
+       <property name="text">
+        <string>Multipart/form-data</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">enctypeGroup</string>
+       </attribute>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>371</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Method:</string>
+   </property>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>341</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QRadioButton" name="radioButton">
+       <property name="text">
+        <string>GET</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">methodGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_2">
+       <property name="text">
+        <string>POST</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">methodGroup</string>
+       </attribute>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>290</y>
+     <width>371</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <widget class="QLineEdit" name="actionPathTextBox"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="browseButton">
+      <property name="text">
+       <string>Browse...</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="enctypeGroup"/>
+  <buttongroup name="methodGroup"/>
+ </buttongroups>
+</ui>

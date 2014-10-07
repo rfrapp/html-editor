@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InsertUploadFieldDialog</class>
+ <widget class="QDialog" name="InsertUploadFieldDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>146</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>381</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Name:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="nameTextBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>381</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="closeButton">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>100</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="insertButton">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>100</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Insert Field</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

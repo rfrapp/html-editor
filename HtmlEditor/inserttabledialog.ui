@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InsertTableDialog</class>
+ <widget class="QDialog" name="InsertTableDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>252</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Insert Table</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>231</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Border</string>
+   </property>
+   <widget class="QSpinBox" name="borderSpinBox">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>30</y>
+      <width>71</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="pxLabel">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>30</y>
+      <width>31</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>px</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>58</width>
+      <height>57</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QRadioButton" name="radioButton">
+       <property name="text">
+        <string>Yes</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">borderOptions</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_2">
+       <property name="text">
+        <string>No</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">borderOptions</string>
+       </attribute>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="closeButton">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>260</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="insertButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>260</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Insert Table</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>170</y>
+     <width>231</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Rows:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Columns:</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>200</y>
+     <width>231</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QSpinBox" name="rowsSpinBox"/>
+    </item>
+    <item>
+     <widget class="QSpinBox" name="colsSpinBox"/>
+    </item>
+   </layout>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>rowsSpinBox</zorder>
+  <zorder>label_2</zorder>
+  <zorder>colsSpinBox</zorder>
+  <zorder>rowsSpinBox</zorder>
+  <zorder>groupBox</zorder>
+  <zorder>closeButton</zorder>
+  <zorder>insertButton</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="borderOptions"/>
+ </buttongroups>
+</ui>

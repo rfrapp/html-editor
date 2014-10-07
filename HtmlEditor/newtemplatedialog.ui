@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NewTemplateDialog</class>
+ <widget class="QDialog" name="NewTemplateDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>401</width>
+    <height>403</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>New Template</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>161</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Template Name:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="templateNameTextBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>371</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>140</y>
+     <width>141</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Template Type:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="templateTypeComboBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>160</y>
+     <width>371</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>ASPX Template</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Cascading Style-Sheet Template</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>JavaScript Template</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>HTML Template</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PHP Template</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="errorLabel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>371</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="templateDescriptionTextBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>230</y>
+     <width>371</width>
+     <height>107</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>210</y>
+     <width>361</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Description:</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>360</y>
+     <width>235</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="addButton">
+      <property name="text">
+       <string>Add</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="closeButton">
+      <property name="text">
+       <string>Close</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

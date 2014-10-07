@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InsertSelectBoxDialog</class>
+ <widget class="QDialog" name="InsertSelectBoxDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Insert Select Box</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>381</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Name:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="nameTextBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>381</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>381</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Options (one per line):</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="optionsTextBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>130</y>
+     <width>371</width>
+     <height>107</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>260</y>
+     <width>252</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="insertButton">
+      <property name="text">
+       <string>Insert Select Box</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="closeButton">
+      <property name="text">
+       <string>Close</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/checkforerrorsicon.png</file>
+        <file>images/collapseicon.png</file>
+        <file>images/copyicon.png</file>
+        <file>images/cuticon.png</file>
+        <file>images/expandicon.png</file>
+        <file>images/newfile.png</file>
+        <file>images/newsiteicon.png</file>
+        <file>images/openicon.png</file>
+        <file>images/pasteicon.png</file>
+        <file>images/previewicon.png</file>
+        <file>images/printicon.png</file>
+        <file>images/redoicon.png</file>
+        <file>images/saveasicon.png</file>
+        <file>images/saveicon.png</file>
+        <file>images/settingsicon.png</file>
+        <file>images/undoicon.png</file>
+        <file>images/findandreplaceicon.png</file>
+        <file>images/Error_Icon.png</file>
+        <file>images/collapseicon.jpg</file>
+        <file>images/expandicon.jpg</file>
+    </qresource>
+</RCC>
